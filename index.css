@@ -1,0 +1,23 @@
+#head{
+       color: red;
+}
+#head1{
+       color: white;
+       background-color: orangered;
+       width: 50%;
+}
+#head2{
+       background-color: white;
+       color: blue;
+       width: 50%;
+       margin: 0px;
+}
+#head3{
+    background-color: green;
+    color:white;
+    width: 50%;
+}
+#root{
+        padding-left: 40%;
+        margin-top: 20%;
+}
