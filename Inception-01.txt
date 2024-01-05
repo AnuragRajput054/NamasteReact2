@@ -1,0 +1,66 @@
+Q.1   What is Emmet?
+Ans.  Emmet is a web development toolkit that greatly enhances HTML and CSS coding productivity.
+      It allows developers to write HTML and CSS code using abbreviations that expand into well-formed code snippets.
+      Emmet is widely used in various integrated development environments (IDEs) and text editors.  In simple language ,
+        Emmet is a way to write our code faster and improve the over-all productivity of our code. 
+
+Q.2   what is the diffrent between liberary and framework?
+Ans.   Both Library and Framework are the pre-difined code that is used to build complex software application.
+        However,libraries target a specific functionality, while a framework tries to provide everything required to develop a complete application.
+        Framework is an Software/application that are used to build/develop complete software-application, while library is not a software/application,it  just a pre-defined code that is used to develop a software or can add 
+        specific functionality.
+        * Popular Framework(example) 
+           = Bootstape, Django,Angular etc.
+        * Popular library.
+           React , NodeJS ,Vue etc.
+ 
+Q.3	 What is CDN? Why do we use it? 
+Ans  	 CDN stands for Content Delivery Network. It is a distributed network of servers strategically placed in various data centers across the globe. 
+         The primary purpose of using  CDN is to improve the performance, speed, and availability of web content by reducing the physical distance between the server and the user.
+ 
+ 
+Q.4     Why is React known as React? 
+Ans.   React, a popular JavaScript library for building user interfaces, was developed and is maintained by Facebook. 
+       The name "React" reflects the core idea behind the library, which is to facilitate the reactive updating of the user interface in response to changes in data or application state.       
+       The name "React" signifies the library's focus on creating dynamic and responsive user interfaces. 
+       In summary, React is named for its emphasis on reactive programming principles and its ability to efficiently update the user interface in response to changes in data or state. 
+
+Q.5    What is crossorigin in script tag?
+Ans.   The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+        Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+       A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+	* The crossorigin attribute can take two values:
+         1) anonymous: This is the default value. When the crossorigin attribute is set to "anonymous,"
+                         the browser loads the script without sending any credentials (like cookies or HTTP authentication) along with the request. 
+          This is suitable for scripts that are intended to be publicly accessible and don't require any specific user credentials.
+
+         2) use-credentials: If the crossorigin attribute is set to "use-credentials," the browser includes credentials (like cookies) with the request when fetching the script. 
+                              This is used when the external script requires authentication to be accessed.
+
+Q.6       What is diference between React and ReactDOM?
+Ans.      React:  React is the core library for building user interfaces in a declarative and component-based manner.
+                 It provides the foundational tools and concepts for defining and rendering UI components, managing component state, and handling component lifecycle events.
+          ReactDOM :  ReactDOM is a package that provides specific methods for interacting with the DOM (Document Object Model).
+                       It is used to render React components into the HTML document.
+
+        In summary, React is the core library for building user interfaces, providing the foundation for defining and managing components,
+               while ReactDOM is a specific package for web development that provides methods for rendering React components into the DOM. 
+
+
+Q.6     What is difference between react.development.js and react.production.js files via CDN?
+Ans.    1. react.development.js: The react.development.js file is the development build of React.
+                                  It is larger in file size compared to the production build, and it includes additional warnings and error messages that are helpful for development and debugging.
+        2.react.production.js: The react.production.js file is the optimized production build of React. 
+                                 It is smaller in size compared to the development build, and it excludes the verbose warnings and development-related features to improve performance in a production environment.
+
+
+Q.7     What is async and defer?
+Ans.    Both Async and defer are boolean attribute that are used along with the script tag for loading external script tag to our web page.
+
+        *Async: When the async attribute is present, it tells the browser to continue parsing the HTML document while the script is being fetched in the background.
+               Once the script is downloaded, it is executed without waiting for the HTML parsing to complete.
+         # Where to use async:: This is useful for non-blocking scripts where the order of execution doesn't matter, and the script can be executed independently of other scripts or the HTML structure.
+
+        *Defer: When the defer attribute is present, it also allows the HTML parsing to continue while the script is being fetched. However, unlike async, 
+               scripts with the defer attribute are executed in the order they appear in the HTML document, after the HTML parsing is complete but before the DOMContentLoaded event.
+        # Where touse defer >>  This is particularly useful when the order of script execution is important, and the script relies on elements in the HTML document that come before it.
